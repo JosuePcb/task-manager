@@ -1,0 +1,8 @@
+# json con datos privados.
+
+*.json
+
+
+# cache de python
+
+src/__pycache__

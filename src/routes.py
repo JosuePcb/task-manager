@@ -1,15 +1,15 @@
 import os
 
-data = "tasks.json"
+DB_FILE = "tasks.json"
 
-dir_src = os.path.dirname(os.path.abspath(__file__)) # Ruta del directorio src
+DIR_SRC = os.path.dirname(os.path.abspath(__file__)) # Ruta del directorio src
 
-dir_proyecto = os.path.dirname(dir_src) # Ruta del directorio raiz 
+DIR_PROJECT = os.path.dirname(DIR_SRC) # Ruta del directorio raiz 
 
-dir_json = os.path.join(dir_proyecto, "data", data) # Ruta del json
+DIR_JSON = os.path.join(DIR_PROJECT, "data", DB_FILE) # Ruta del json
 
-dir_icons = os.path.join(dir_proyecto, "icons") # Ruta de directorio icons
+DIR_ICONS = os.path.join(DIR_PROJECT, "icons") # Ruta de directorio icons
 
-roboto_regular = os.path.join(dir_proyecto, "fonts","roboto_regular.ttf") # ruta para roboto regular
+ROBOTO_REGULAR = os.path.join(DIR_PROJECT, "fonts","roboto_regular.ttf") # ruta para roboto regular
 
-roboto_bold = os.path.join(dir_proyecto, "fonts","roboto_bold.ttf") # ruta para roboto bold
+ROBOTO_BOLD = os.path.join(DIR_PROJECT, "fonts","roboto_bold.ttf") # ruta para roboto bold

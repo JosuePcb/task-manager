@@ -101,5 +101,3 @@ def save_task(window,title,description,cal,priority,refresh):
         json.dump(tasks_list, task, indent=4)
     window.destroy()
     refresh()
-    
-print(len("Add "))
